@@ -1,0 +1,12 @@
+name: notes-on-linear-algebra
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - numba
+  - notebook
+  - matplotlib
+  - rise
+environment:
+  PYTHONPATH:
+    - {{ root }}/source
